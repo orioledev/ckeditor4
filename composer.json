@@ -1,0 +1,37 @@
+{
+  "name": "orioledev/yii2-ckeditor4",
+  "keywords": [
+    "yii",
+    "wysiwyg",
+    "editor",
+    "CKEditor"
+  ],
+  "description": "Yii2 CKEditor",
+  "homepage": "https://github.com/orioledev/yii2-ckeditor4",
+  "license": "BSD-3-Clause",
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Oriole",
+      "email": "orriole@yandex.ru",
+      "homepage": "https://github.com/kuzmina-mariya",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "orioledev\\ckeditor4\\": ""
+    }
+  },
+  "require": {
+    "yiisoft/yii2": "*",
+    "mihaildev/yii2-ckeditor": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
